@@ -6,5 +6,5 @@ class Person
     attributes.each_char { |k,v| self.send("#{k}=", v)
     end
   end
- end
+
 
